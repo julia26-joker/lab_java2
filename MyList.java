@@ -1,8 +1,8 @@
-// реализация простого списка без коллекций
+// Делаю список 
 public class MyList<T>
 {
     private Object[] a; 
-    private int s; // размер текущего списка
+    private int s; 
 
     // создаю пустой список
     public MyList()
